@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.Recruitment">
+      <class name="com.selenium.AllinONE">
         <methods>
-          <include name="Menu"/>
-          <include name="browser"/>
-          <include name="close_browser"/>
+          <include name="Website_launch"/>
+          <include name="Browser_launch"/>
+          <include name="Text"/>
+          <include name="Weblist_dropdown"/>
         </methods>
-      </class> <!-- com.selenium.Recruitment -->
+      </class> <!-- com.selenium.AllinONE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

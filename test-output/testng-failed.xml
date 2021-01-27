@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="HR_Orange_Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.Recruitment">
-        <methods>
-          <include name="Menu"/>
-          <include name="browser"/>
-          <include name="close_browser"/>
-        </methods>
-      </class> <!-- com.selenium.Recruitment -->
-      <class name="com.selenium.Orange_login">
-        <methods>
-          <include name="close_browser"/>
-          <include name="browser"/>
-        </methods>
-      </class> <!-- com.selenium.Orange_login -->
       <class name="com.selenium.AllinONE">
         <methods>
-          <include name="close_browser"/>
+          <include name="Website_launch"/>
           <include name="Browser_launch"/>
+          <include name="Text"/>
+          <include name="Weblist_dropdown"/>
         </methods>
       </class> <!-- com.selenium.AllinONE -->
     </classes>
-  </test> <!-- HR_Orange_Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
