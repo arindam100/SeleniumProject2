@@ -1,5 +1,6 @@
 // All in one3
 // All in one3
+// All in one3
 package com.selenium;
 
 import java.util.List;
@@ -17,11 +18,13 @@ import org.testng.annotations.Test;
 
 public class AllinONE {
 WebDriver driver;	
+
+
 @BeforeClass 
 
 public void Browser_launch() {
 	
-	System.setProperty("webdriver.chrome.driver","C:\\\\arindam\\\\driver5\\\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","C:\\\\chromedriver_win\\\\chromedriver.exe");
 	
     driver= new ChromeDriver();
 	
