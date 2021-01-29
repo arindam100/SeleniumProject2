@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="HR_Orange_Test(failed)">
+  <test name="Test2(failed)">
     <classes>
-      <class name="com.selenium.Recruitment">
-        <methods>
-          <include name="Menu"/>
-          <include name="browser"/>
-          <include name="close_browser"/>
-        </methods>
-      </class> <!-- com.selenium.Recruitment -->
       <class name="com.selenium.Orange_login">
         <methods>
-          <include name="close_browser"/>
           <include name="browser"/>
+          <include name="launch_aap"/>
         </methods>
       </class> <!-- com.selenium.Orange_login -->
       <class name="com.selenium.AllinONE">
@@ -23,5 +16,5 @@
         </methods>
       </class> <!-- com.selenium.AllinONE -->
     </classes>
-  </test> <!-- HR_Orange_Test(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
