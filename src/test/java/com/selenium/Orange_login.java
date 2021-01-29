@@ -19,7 +19,7 @@ public class Orange_login {
 @BeforeClass
 public void browser() {
 	
-	System.setProperty("webdriver.chrome.driver","C:\\\\arindam\\\\driver5\\\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","C:\\\\arindam\\\\driver5\\\\chromedriver.exe");
 	driver = new ChromeDriver();
 	
 }
