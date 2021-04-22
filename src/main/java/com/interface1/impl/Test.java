@@ -2,19 +2,6 @@ package com.interface1.impl;
 
 import com.interface1.A1;
 
-//import com.interface1.A1;
-
-
-
-
-
-
-
-
-
-
-
-
 public class Test implements A1{
 	
 	public int add(int a, int b) {
@@ -28,8 +15,11 @@ public class Test implements A1{
 	public static void main(String[] args) {
 		
 		Test obj=new Test();
+		A1 obj1=new Test();
+		System.out.println(obj1.add(5, 6));
 		
-		System.out.println(obj.add(5,6));
+		
+		//System.out.println(obj.add(5,6));
 	}
 }
 

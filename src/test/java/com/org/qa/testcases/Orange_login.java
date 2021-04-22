@@ -1,5 +1,5 @@
 //testing automation 
-package com.selenium;
+package com.org.qa.testcases;
 
 import java.util.concurrent.TimeUnit;
 

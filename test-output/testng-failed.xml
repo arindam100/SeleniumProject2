@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test2(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.selenium.Orange_login">
+      <class name="com.org.qa.testcases.Org_recruitment">
         <methods>
-          <include name="browser"/>
+          <include name="org_login"/>
+          <include name="Browser"/>
+          <include name="recruitment"/>
+        </methods>
+      </class> <!-- com.org.qa.testcases.Org_recruitment -->
+      <class name="com.org.qa.testcases.Orange_login">
+        <methods>
           <include name="launch_aap"/>
-        </methods>
-      </class> <!-- com.selenium.Orange_login -->
-      <class name="com.selenium.AllinONE">
-        <methods>
           <include name="close_browser"/>
-          <include name="Browser_launch"/>
+          <include name="browser"/>
         </methods>
-      </class> <!-- com.selenium.AllinONE -->
+      </class> <!-- com.org.qa.testcases.Orange_login -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

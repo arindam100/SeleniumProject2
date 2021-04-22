@@ -1,47 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="72960" started-at="2021-01-28T09:40:20Z" finished-at="2021-01-28T09:41:33Z">
+  <suite started-at="2021-04-21T12:06:57 IST" name="Default suite" finished-at="2021-04-21T12:07:16 IST" duration-ms="18953">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="72960" started-at="2021-01-28T09:40:20Z" finished-at="2021-01-28T09:41:33Z">
-      <class name="com.selenium.Orange_login">
-        <test-method status="PASS" signature="browser()[pri:0, instance:com.selenium.Orange_login@17c386de]" name="browser" is-config="true" duration-ms="6448" started-at="2021-01-28T15:11:12Z" finished-at="2021-01-28T15:11:18Z">
+    <test started-at="2021-04-21T12:06:57 IST" name="Default test" finished-at="2021-04-21T12:07:16 IST" duration-ms="18953">
+      <class name="com.org.orn.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.org.orn.qa.testcases.LoginPageTest@248e319b]" started-at="2021-04-21T12:06:57 IST" name="setup" finished-at="2021-04-21T12:07:04 IST" duration-ms="6319" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="launch_aap()[pri:1, instance:com.selenium.Orange_login@17c386de]" name="launch_aap" duration-ms="9516" started-at="2021-01-28T15:11:18Z" finished-at="2021-01-28T15:11:28Z">
+        </test-method> <!-- setup -->
+        <test-method signature="title()[pri:0, instance:com.org.orn.qa.testcases.LoginPageTest@248e319b]" started-at="2021-04-21T12:07:04 IST" name="title" finished-at="2021-04-21T12:07:04 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch_aap -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.selenium.Orange_login@17c386de]" name="close_browser" is-config="true" duration-ms="1574" started-at="2021-01-28T15:11:28Z" finished-at="2021-01-28T15:11:29Z">
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.org.orn.qa.testcases.LoginPageTest@248e319b]" started-at="2021-04-21T12:07:04 IST" name="setup" finished-at="2021-04-21T12:07:09 IST" duration-ms="5731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- com.selenium.Orange_login -->
-      <class name="com.selenium.AllinONE">
-        <test-method status="PASS" signature="Browser_launch()[pri:0, instance:com.selenium.AllinONE@5762806e]" name="Browser_launch" is-config="true" duration-ms="5360" started-at="2021-01-28T15:10:20Z" finished-at="2021-01-28T15:10:26Z">
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.org.orn.qa.testcases.LoginPageTest@248e319b]" started-at="2021-04-21T12:07:09 IST" name="loginTest" finished-at="2021-04-21T12:07:16 IST" duration-ms="6856" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Browser_launch -->
-        <test-method status="PASS" signature="Website_launch()[pri:0, instance:com.selenium.AllinONE@5762806e]" name="Website_launch" duration-ms="44197" started-at="2021-01-28T15:10:26Z" finished-at="2021-01-28T15:11:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Website_launch -->
-        <test-method status="PASS" signature="Text()[pri:1, instance:com.selenium.AllinONE@5762806e]" name="Text" duration-ms="1908" started-at="2021-01-28T15:11:10Z" finished-at="2021-01-28T15:11:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Text -->
-        <test-method status="PASS" signature="Weblist_dropdown()[pri:2, instance:com.selenium.AllinONE@5762806e]" name="Weblist_dropdown" duration-ms="2157" started-at="2021-01-28T15:11:29Z" finished-at="2021-01-28T15:11:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Weblist_dropdown -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.selenium.AllinONE@5762806e]" name="close_browser" is-config="true" duration-ms="1686" started-at="2021-01-28T15:11:32Z" finished-at="2021-01-28T15:11:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_browser -->
-      </class> <!-- com.selenium.AllinONE -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.org.orn.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

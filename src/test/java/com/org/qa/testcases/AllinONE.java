@@ -1,7 +1,7 @@
 // All in one3
 // All in one3
 // All in one3
-package com.selenium;
+package com.org.qa.testcases;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
